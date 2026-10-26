@@ -14,6 +14,10 @@
 
 刚开源，觉得有用的话，在仓库右上角点颗 Star。
 
+[![ai-answer-archive：把 AI 分享链接里的回答完整存下来](assets/ai-answer-archive.jpg)](https://github.com/jiguang9/ai-answer-archive)
+
+配套的存档工具。一批豆包、ChatGPT、DeepSeek 分享链接进去，出来一张回答存档表：完整原文、AI 返回的来源、搜索词，原始数据另存一份。接上判定助手批量判，再合成一份能交付、能逐条复核的原始记录索引。 [打开 ai-answer-archive →](https://github.com/jiguang9/ai-answer-archive)
+
 ## 让 AI 和搜索引擎找到你
 
 [![geo-audit：测一下你的网站，AI 搜索会不会引用它](assets/geo-audit.jpg)](https://github.com/jiguang9/geo-audit)

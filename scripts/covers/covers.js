@@ -72,6 +72,12 @@ const COVERS = {
       pill(1160, y + 64, '建议动作', { anchor: 'start', size: 22, fill: '#D3F0E6', seed: sd + 2 })).join('') +
     drawMate('huohuo', 1612, FOOT, T, { act: 'point', flip: true, s: 1.12 }) + star4(1704, 150, 14, C.red),
 
+  'ai-answer-archive': () => heading({ eyebrow: 'ai-answer-archive · Agent Skill', title: '回答存档', slogan: '分享链接里的回答存下来', note: '完整原文 · 来源 · 搜索词 · 原始记录索引' }) +
+    panel(980, 96, 500, 396, '回答存档表', 111) +
+    row(1010, 222, '完整原文', 'ok') + row(1010, 290, 'AI 返回的来源', 'ok') + row(1010, 358, '原始数据和哈希', 'ok') + row(1010, 426, '打不开的照实标', 'no') +
+    stamp('可复核', 1370, 436, T, 0, { color: C.green, rot: -10, size: 28 }) +
+    drawMate('xinxin', 1612, FOOT, T, { act: 'folder', flip: true, s: 1.12 }) + star4(1704, 150, 14, C.peach),
+
   'follow': () => {
     const qr = (x, file, label, sd) => shape(rr(x, 150, 236, 236, 22, sd, 1.2), { fill: '#fff', sw: 4 }) +
       `<image href="qr/${file}" x="${x + 20}" y="170" width="196" height="196"/>` + txt(label, x + 118, 440, { size: 34, weight: 700, anchor: 'middle' });
