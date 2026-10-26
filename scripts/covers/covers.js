@@ -78,6 +78,15 @@ const COVERS = {
     stamp('可复核', 1370, 436, T, 0, { color: C.green, rot: -10, size: 28 }) +
     drawMate('xinxin', 1612, FOOT, T, { act: 'folder', flip: true, s: 1.12 }) + star4(1704, 150, 14, C.peach),
 
+  'comment-demand-mining': () => heading({ eyebrow: 'comment-demand-mining · Agent Skill', title: '评论区挖需求', slogan: '从评论里找产品和选题', note: '求资源 · 痛点 · 软广识别 · 每条判断有出处' }) +
+    chatBox(980, 92, 500, 400, '评论区', 121) +
+    [['有没有现成的模板？', '求资源', C.butter, 216], ['私信领取试用', '疑似软广', '#FDE3E6', 306], ['扒了几个月，头疼', '痛点', '#D3F0E6', 396]].map(([s, tag, f, y], i) =>
+      shape(circ(1030, y - 10, 15, 122 + i), { fill: SOFT, sw: 3 }) +
+      (i === 2 ? marker(1052, y - 12, 254, T, 0) : '') + txt(s, 1060, y, { size: 30 }) +
+      pill(1338, y - 10, tag, { anchor: 'start', size: 22, fill: f, seed: 125 + i })).join('') +
+    textLines(1060, 446, 360, 1, 128, 26) +
+    drawMate('dingding', 1612, FOOT, T, { act: 'magnify', flip: true, s: 1.12 }) + star4(1704, 150, 14, C.butter),
+
   'follow': () => {
     const qr = (x, file, label, sd) => shape(rr(x, 150, 236, 236, 22, sd, 1.2), { fill: '#fff', sw: 4 }) +
       `<image href="qr/${file}" x="${x + 20}" y="170" width="196" height="196"/>` + txt(label, x + 118, 440, { size: 34, weight: 700, anchor: 'middle' });

@@ -57,7 +57,7 @@ python3 scripts/covers/render.py geo-judge    # 只生成一张（可以写多�
 | 成员 | kind | 岗位 | 已经用在 |
 |------|------|------|----------|
 | 芯芯 | `xinxin` | 总管 | geo-audit（拿放大镜检查网站）、ai-answer-archive（抱文件夹） |
-| 叮叮 | `dingding` | 沟通 | geo-judge（指着 AI 回答） |
+| 叮叮 | `dingding` | 沟通 | geo-judge（指着 AI 回答）、comment-demand-mining（拿放大镜看评论区） |
 | 格格 | `gege` | 数据 | google-seo-audit（指着体检清单） |
 | 翻翻 | `fanfan` | 调研 | competitor-analysis（拿放大镜对比） |
 | 页页 | `yeye` | 写稿 | industry-research（抱文件夹） |

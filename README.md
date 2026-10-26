@@ -38,6 +38,10 @@
 
 会前快速搞懂一个陌生行业：市场、产业链、商业模式、竞争格局和趋势，冲突的数字并列写出，不取平均。 [打开 industry-research →](https://github.com/jiguang9/industry-research)
 
+[![comment-demand-mining：从社媒评论区里挖出用户需求、产品机会和内容选题](assets/comment-demand-mining.jpg)](https://github.com/jiguang9/comment-demand-mining)
+
+把小红书等平台的帖子连评论区贴进来，看清用户卡在哪一步、现在怎么凑合、哪些是软广，产品机会分"直接做"和"先验证"，每条判断都能追回到具体评论。 [打开 comment-demand-mining →](https://github.com/jiguang9/comment-demand-mining)
+
 [![ai-marketing-hot：AI 营销热点日报](assets/ai-marketing-hot.jpg)](https://github.com/jiguang9/ai-marketing-hot)
 
 聚合 AI 行业动态、营销平台官方消息和社区讨论，每条热点都写清营销影响、建议动作和适合谁。 [打开 ai-marketing-hot →](https://github.com/jiguang9/ai-marketing-hot)
