@@ -4,6 +4,14 @@
 
 这里开源的是我自己每天在用的营销工具和 Agent Skills。小红书 1.7 万+ 垂直粉丝，全网 3 万+；[AI Marketing Lift](https://aimarketinglift.com) 上有 100+ 篇实战文章、142 个术语词条和 9 个免费工具，一个人从零搭起来并持续维护。
 
+## GEO 实测手册 · 免费 PDF
+
+把 ChatGPT、豆包和 DeepSeek 的品牌可见度测试整理成了 50 页手册，包含真实截图、重复测试、判定口径和测试条件记录模板。适合想给自己的品牌做一轮 GEO 测试的人。
+
+[![GEO 实测手册封面](https://raw.githubusercontent.com/jiguang9/geo-field-guide/v1.0/assets/cover.jpg)](https://github.com/jiguang9/geo-field-guide)
+
+[下载 v1.0 正式 PDF](https://github.com/jiguang9/geo-field-guide/releases/download/v1.0/geo-handbook-v1.0.pdf) · [手册仓库与版本记录](https://github.com/jiguang9/geo-field-guide) · [网站介绍](https://aimarketinglift.com/geo-handbook)
+
 ## 最近在做：GEO 可见度判定助手
 
 [![GEO 可见度判定助手：粘一段 AI 回答，看品牌有没有被提到、排第几、有没有被引用](assets/geo-judge.jpg)](https://github.com/jiguang9/geo-judge)
